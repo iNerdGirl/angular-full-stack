@@ -1,0 +1,1 @@
+Full stack application using NodeJS, ExpressJS, KnexJS, and Angular5
