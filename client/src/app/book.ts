@@ -1,5 +1,4 @@
 export class Book {
-  books: Array<object>;
   id: number;
   title: string;
   isbn: string;

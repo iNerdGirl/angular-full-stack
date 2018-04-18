@@ -13,6 +13,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { BooksComponent } from './books/books.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { BookCardComponent } from './book-card/book-card.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { BookCardComponent } from './book-card/book-card.component';
     NavBarComponent,
     BooksComponent,
     AuthorsComponent,
-    BookCardComponent
+    BookCardComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

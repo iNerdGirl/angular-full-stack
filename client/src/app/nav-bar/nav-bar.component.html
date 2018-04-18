@@ -1,19 +1,19 @@
 <amexio-nav [enable-side-nav-position]="false" 
   [title]="'Autumns Book Store'"	
   [logo]="'assets/images/logos/books-logo.png'">
-    <amexio-nav-item position-left
+    <amexio-nav-item position-right
       [type]="'link'" 
       [title]="'Home'" 
-      (onNavItemClick)="homeLink('')">
+      routerLink="/home">
     </amexio-nav-item> 
-    <amexio-nav-item position-left
+    <amexio-nav-item position-right
       [type]="'link'" 
       [title]="'Books'" 
-      (onNavItemClick)="onClick('/books')">
+      routerLink="/books">
     </amexio-nav-item> 
-    <amexio-nav-item position-left
+    <amexio-nav-item position-right
       [type]="'link'" 
       [title]="'Authors'" 
-      (onNavItemClick)="homeLink('')">
+      routerLink="/authors">
     </amexio-nav-item>               	
 </amexio-nav>
